@@ -1,0 +1,49 @@
+﻿  ms2_tester.cpp
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(22): error C2871: 'AMA': a namespace with this name does not exist
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(25): error C2065: 'ErrorState': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(25): error C2146: syntax error: missing ';' before identifier 'T'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(25): error C3861: 'T': identifier not found
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(26): error C2065: 'ErrorState': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(26): error C2146: syntax error: missing ';' before identifier 'e'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(26): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(29): error C2065: 'T': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(29): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(29): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(29): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(30): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(30): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(30): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(38): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(38): error C2228: left of '.message' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(38): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(59): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(59): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(59): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(60): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(60): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(60): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(63): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(63): error C2228: left of '.message' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(63): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(64): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(64): error C2228: left of '.message' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(64): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(64): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(64): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(65): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(65): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(65): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(67): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(67): error C2228: left of '.clear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(67): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(68): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(68): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(68): note: type is 'unknown-type'
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(69): error C2065: 'e': undeclared identifier
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(69): error C2228: left of '.isClear' must have class/struct/union
+  c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\ms2_tester.cpp(69): note: type is 'unknown-type'
+  ErrorState.cpp
+c:\users\tarush\desktop\semester 2\oop\milestone2\milestone2\errorstate.cpp(16): fatal error C1083: Cannot open include file: 'ErrorMessage.h': No such file or directory
+  ErrorMessage.cpp
+c1xx : fatal error C1083: Cannot open source file: '..\ErrorMessage.cpp': No such file or directory
+  Generating Code...

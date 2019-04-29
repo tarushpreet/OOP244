@@ -1,0 +1,46 @@
+namespaces-in applications written by several developers, chances are that they will use same identifier for different variables, naming conflicts may rise. So, develop application in its own namespaces. A namespace is a scope for the entities that it encloses. 
+Abstraction- An object-oriented solution to a programing problem consists of components represented as objects. This process of designing an object-oriented solution is abstraction. In each abstraction, we distinguish most important features of a component and hide less important details. 
+Each object is an instance of class. object of same class has same structure but different states/values. eg, books have title and author, but different.
+Encapsulation is the primary concept of oop.  It refers to the integration of data and logic within a class' implementation that establishes the crisp interface between the implementation and any client.  Encapsulation maintains high cohesion within a class and low coupling between the class' implementation and any one of its clients. A well-encapsulated class hides all implementation details within itself.  The client does not see the data that the class' object stores within itself or the logic that it uses to manage its internal data.  The client only sees a clean and simple interface to the object.
+Inheritance - one class inherits the structure of another class.
+Polymorphism - a single interface provides multiple implementations.
+Preprocessor - interprets all directives creating a single translation unit for the compiler - (inserts the contents of all #include header files), (substitutes all#define macros)
+Compiler - compiles each translation unit separately and creates a corresponding binary version
+Linker - assembles the various binary units along with the system binaries to create one complete executable binary
+Syntactic errors are errors that break the rules of the programming language. Semantic errors are errors that fail to implement the intent and meaning of the program designer.
+A declaration associates an entity with a type, telling the compiler how to interpret the entity's identifier.
+A forward declaration is like a function prototype: it tells the compiler how to interpret the entity's identifier.
+A definition is a declaration that associates a meaning with an identifier. It is an executable statement. 
+a definition may only appear once within its scope.  This is called the one-definition rule. 
+For example, we cannot define Transaction or display() more than once within the same code block or translation unit.
+The scope of a declaration is the portion of a program over which that declaration is visible.  Scopes include
+global scope - visible to the entire program
+file scope - visible to the source code within the file
+function scope - visible to the source code within the function
+class scope - visible to the member functions of the class
+block scope - visible to the code block
+The scope of a non-global declaration begins at the declaration and ends at the closing brace for that declaration.  A non-global declaration is called a local declaration.  We say that an identifier that has been locally declared is a local variable or object. 
+An identifier declared with an inner scope can shadow an identifier declared with a broader scope, making the latter temporarily inaccessible.
+The memory that the operating system allocates for the application at load time is called static memory.  Static memory includes the memory allocated for program instructions and program data.  The compiler determines the amount of static memory that each translation unit requires.  The linker determines the amount of static memory that the entire application requires. Static memory requirements are determined at compile-link time and do not change during execution.  This memory is fast, fixed in its amount and allocated at load time. 
+The memory that an application obtains from the operating system during execution is called dynamic memory. 
+Dynamic memory is distinct from the static memory.  While the operating system allocates static memory for an application at load time, the system reserves dynamic memory, allocates it and deallocates it at run-time.
+The lifetime of any dynamically allocated memory ends when the pointer holding its address goes out of scope. pointer = new Type[size]; delete [] pointer;
+A memory leak occurs if an application loses the address of dynamically allocated memory before that memory has been deallocated.  This may occur if
+the pointer to dynamic memory goes out of scope before the application deallocates that memory 
+the pointer to dynamic memory changes its value before the application deallocates the memory starting at the address stored in that pointer.
+The member functions of a class provide the communication links between client code and objects of the class. The const qualifier identifies the member function as a query.  A query does not change the state of its object. 
+The scope of a member function lies within the scope of its class.  That is, a member function can access any other member within its class' scope. 
+Hiding all data members from client code gives us control over which data to accept, which data to reject and which data to expose.  We can validate information incoming from client code before storing it in an object.  If the data is invalid, we can reject it and store default values that identify the object's state as an empty state. 
+width(int) - sets the field width to the integer received
+fill(char) - sets the padding character to the character received
+setf(ios::fixed,scientific,left,right) - sets a formatting flag to the flag received
+unsetf(...) - unsets a formatting flag for the flag received
+precision(int) - sets the decimal precision to the integer received
+The special member function that any object invokes at creation-time is called its class' constructor. 
+Initializing an object's instance variables in a constructor ensures that the object has a well-defined state from the time of its creation. 
+The special member function that every object invokes before going out of scope is called its class' destructor. ~Type();
+
+
+
+A binary operation consists of one operator and two operands.  In a binary member operator, the left operand is the current object and the member function takes one explicit parameter: the right operand. 
+A unary operation consists of one operator and one operand.  The left operand of a unary member operator is the current object.

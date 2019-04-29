@@ -1,0 +1,22 @@
+/*NAME = VIKRAMJEET SINGH LUBANA
+  SENECA ID = 134905165*/
+
+
+Ans1. Bugs are created when memory is leaked when we fail to deallocate memory and then bugs are difficult to remove,that is why we need to allocate new dynami memory.
+
+Ans2. In order to put 3 things we need to update it to 3 instead of 2(in lab part)
+so that 3 things can fit in.
+
+Ans3. When we overload functions, compiler distinguish them by their identifiers, parameter types and order. And both of the functions have distinguish kinds of parameters.
+
+Ans4. The passing objects through arrays, concepts of dynamic allocation memory and overloading of functions are the things which i learned from this workshop.
+
+
+
+
+QUIZ REFLECT.
+
+
+CONSTRUCTORS = a member function which initializes instance of its own class.
+
+DESTRUCTORS = it is opposite of cunstructors. the member function every object initializes before going out of scope.
