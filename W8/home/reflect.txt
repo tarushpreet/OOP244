@@ -1,0 +1,10 @@
+/*Tarushpreet Singh
+136579166*/
+Reflect.txt
+
+1. The abstract base class can not be instantiated i.e. if we try to create an instance of an abstract base class, the compiler generates an error 
+because it inherits a pure virtual function. Moreover,  instantiation is allowed in concrete classes , which differentiate it from the abstract base class.
+
+2. The debit and credit functins shadow functions of the same name.
+
+3. In this workshop, I learnt how to use the virtual functions and abstract base classes.

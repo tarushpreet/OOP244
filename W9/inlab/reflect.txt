@@ -1,0 +1,19 @@
+/*Tarushpreet Singh
+136579166*/
+
+Reflect.txt
+
+
+1. Template functions are parametric polymorphism means compile-time 
+   polymorphism, it should be instantiated by the complier before actually 
+   compiling. when we move templated functions in Data.cpp, compiler can't see
+   ws9_lab.cpp and when ws9_lab.cpp is compile, there will be complier errors.
+
+2. Yes it will work when the fuction is above the main function.
+
+3. We can do the workshop without tempeletes but we had to make long code without
+   them on the onther hand we have to make duplicate code in which may be we can
+   do some mistakes.
+
+4. They both are same because use of 'typename and class' provide the same output
+
